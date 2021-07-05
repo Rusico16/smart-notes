@@ -1,0 +1,44 @@
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (QApplication, QtWidgets, QPushButton, QLabel, QListWidget, QLineEdit, QInputDialog, QHBoxLayout,QFotmLayout)
+
+import json
+
+app=QApplication([])
+
+'''заметки в json'''
+notes
+
+notes_win= QtWidgets()
+notes_win.setWindowTitle("умные заметки")
+notes_win.resize(900,600)
+
+list_notes = QListWidget
+list_notes_label=Qlabel("список заметок")
+
+button_note_create = QPushButton("создать заметку")
+button_note_del =QPushButton("удалить заметку")
+button_note_save = QPushButton("сохранить заметку")
+
+field_tag = QLineEdit("")
+field_tag.setPlaceholderText("")
+field_text = QTextEdit()
+button_tag_add = QPushButton("")
+button_tag_del = QPushButton("")
+button_tag_search = QPushButton("")
+list_tags QtWidgets()
+list_tags_label = QLabel("")
+
+layout_notes = QHBoxLayout
+col_1=QVBoxLayout()
+col_1.addWidget(field_text) 
+
+col_2= QVBoxLayout()
+col_2.addWidget(list_notes_label)
+col_2.addWidget(list_notes)
+row_1=QHBoxLayout()
+row_1.addWidget()
+row_1.addWidget()
+row_2=QHBoxLayout()
+row_2.addWidget
+col_2.addWidget
+col_2.addWidget
